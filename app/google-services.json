@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030974181120",
+    "firebase_url": "https://tucitamedica-f835a.firebaseio.com",
+    "project_id": "tucitamedica-f835a",
+    "storage_bucket": "tucitamedica-f835a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030974181120:android:46e1869578607c7a",
+        "android_client_info": {
+          "package_name": "com.example.diego.tucitamedica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030974181120-821dk1jl0uu0vt8b2nh3uskva0fqnkbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diego.tucitamedica",
+            "certificate_hash": "4884b7ec8cc1a3e11ab1afe37ce150e688d50b42"
+          }
+        },
+        {
+          "client_id": "1030974181120-arfo0tp8p5b05eg6kogga6sgaemhv3fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeZ5KebL1XuaNzKR2iDJPw6UMPPJ90cLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030974181120-arfo0tp8p5b05eg6kogga6sgaemhv3fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+
+        <string-array name="valores">
+
+            <item>Medicina General</item>
+
+            <item>Odontologia</item>
+
+            <item>Psicologia</item>
+
+        </string-array>
+
+    </resources>

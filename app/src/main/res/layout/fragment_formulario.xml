@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.diego.tucitamedica.Fragments.FormularioFragment"
+    android:background="@color/propio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/txtSaludo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMPLETA CON TUS DATOS PERSONALES"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="30sp"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/persona" />
+
+    </LinearLayout>
+
+
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nombre"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Apellidos"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtIdentificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Cedula"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Celular"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Fecha de nacimiento"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Sexo"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Direccion"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Edad"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+        <EditText
+            android:layout_marginTop="15sp"
+            android:id="@+id/txtEstadoCivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Estado Civil"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/btnTerminar"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GUARDAR CAMBIOS" />
+
+    </LinearLayout>
+
+</ScrollView>

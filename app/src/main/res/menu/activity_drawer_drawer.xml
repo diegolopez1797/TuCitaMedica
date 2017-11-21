@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_citas"
+            android:icon="@drawable/escritura"
+            android:title="Agendar tu cita" />
+        <item
+            android:id="@+id/nav_centros"
+            android:icon="@drawable/centros"
+            android:title="Centros de Atención" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/calendario"
+            android:title="Calendario" />
+        <item
+            android:id="@+id/nav_tus_mapas"
+            android:icon="@drawable/mapas"
+            android:title="Mapas y Marcadores" />
+    </group>
+
+    <item android:title="Ajustes de Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_actualizar_tus_datos"
+                android:icon="@drawable/datos"
+                android:title="Actualizar tus datos" />
+        </menu>
+    </item>
+
+</menu>

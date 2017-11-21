@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diego.tucitamedica.FormularioMapaActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:text="MARCADORES"
+            android:paddingTop="30sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:fontFamily="casual" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitud"
+            android:id="@+id/txtLatitud"
+            android:inputType="text"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitud"
+            android:id="@+id/txtLongitud"
+            android:inputType="text"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del marcador"
+            android:id="@+id/txtNombre"
+            android:inputType="text"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGuardar"
+            android:text="Guardar"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMapa"
+            android:text="Mostar "
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

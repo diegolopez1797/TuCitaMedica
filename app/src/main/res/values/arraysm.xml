@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="valoresM">
+
+        <item>Medico 1</item>
+
+        <item>Medico 2</item>
+
+        <item>Medico 3</item>
+
+    </string-array>
+
+</resources>
